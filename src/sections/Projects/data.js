@@ -19,7 +19,7 @@ const ilc = {
   description:
     'Developed and deployed end to end CI CD pipeline with Jenkins hosted on a docker container inside AWS with help of AWS ECS, AWS EC2 and AWS ECR.',
   features: ['Docker inside Docker', 'Automated Pipeline Trigger', 'Portabile', 'Scalable'],
-  techStack: ['Jenkins', 'AWS ECS', 'AWS EC2' ,'Docker', 'Amazon S3'],
+  techStack: ['Jenkins', 'AWS ECS/EC2', 'Docker', 'Amazon S3'],
 };
 
 const $7d50p = {
@@ -28,7 +28,7 @@ const $7d50p = {
   description:
     'Developed a Single Block Blockchain in Python. The blockchain includes ability to create, delete blocks and validate transactions. Developed Android Application using Java and native android SDK for Blockchain Demonstration.',
   features: ['Create and delete blocks', 'Validate Transactions', 'Android App', 'Python Server'],
-  techStack: ['Python3', 'Blockchain', 'Cryptocurrency', 'Android', 'REST API'],
+  techStack: ['Python3', 'Blockchain', 'Android', 'REST API'],
 };
 
 const aubit = {
@@ -40,14 +40,6 @@ const aubit = {
   techStack: ['Jenkins', 'Groovy','Google Play Console', 'Raspberry Pie'],
 };
 const portfolio_website = {
-  title: 'Portfolio Website',
-  type: 'Personal project',
-  description:
-  'Portfolio website is written in React Js and Three Js. It offers a comprehensive approach at my career as a Computer Engineer. Website is served by AWS CloudFront using AWS Route 53 and Amazon S3.',
-  features: ['Github Actions Pipelines', 'Responsive Design','Dark/Light Mode','Cloud ready code'],
-  techStack: ['React Js','AWS Route 53', 'AWS CloudFront', 'Amazon S3','Github Actions'],
-};
-const portfolio_websitetyw = {
   title: 'Portfolio Website',
   type: 'Personal project',
   description:

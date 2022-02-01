@@ -14,13 +14,13 @@ export default function About() {
         <Fade bottom distance={'4rem'}>
           <div className={classes.about__content}>
             <div className={classes.about__text}>
+              
               <p className={classes.description}>
                 <span role='img' aria-label='wave emoji'>
                   👋
                 </span>{' '}
                 Hi! I am Shikhar, full-time DevOps Engineer based in Toronto, Canada 🇨🇦
               </p>
-
               <p className={classes.description}>
                Currently I'm a Mobile DevOps Engineer with Clearbridge Mobile where I work closely with multiple project teams to create end to end fully automated deployment pipelines as well as cloud  ☁️ architectures.
               </p>

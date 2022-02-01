@@ -10,6 +10,7 @@ import logo_azure from "../../../images/logo_azure.svg"
 import logo_groovy from "../../../images/logo_groovy.svg"
 import logo_swift from "../../../images/logo_swift.svg"
 import logo_kotlin from "../../../images/logo_kotlin.svg"
+import logo_git from "../../../images/logo_git.svg"
 import logo_java from "../../../images/logo_java.svg"
 export default function Skills() {
   
@@ -71,9 +72,6 @@ export default function Skills() {
         <span className='tooltip'>Kubenetes/GKE</span>
         </span>
 
-        <span className='logo logo-git'>
-          <span className='tooltip'>Git</span>
-        </span>
 
 </div>
 <h4 className={classes.subheading}>Languages:</h4>
@@ -95,8 +93,7 @@ export default function Skills() {
         </span>
         <span className='logo logo-java'>
       <img className={classes.logo_swift}
-                alt='Swift
-                '
+                alt='Swift'
                 src={logo_swift}
         />
           <span className='tooltip'>Swift</span>

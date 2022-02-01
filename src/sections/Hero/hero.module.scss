@@ -12,7 +12,7 @@
   overflow-x: hidden;
 
   .container {
-    margin-left: 26rem;
+    @include marginate;
     position: relative;
   }
 
@@ -60,7 +60,6 @@
     animation-duration: 1.8s;
     animation-delay: 3.8s;
   }
-
   .waterMark {
     position: absolute;
     font-family: $font-mono;

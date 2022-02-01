@@ -28,7 +28,10 @@ jobs:
       - name: Run a one-line script
         run: echo Production build initiating!
 
-      - name: Run a one-line script
+      - name: Install node modules
+        run: npm run build
+
+      - name: Build web app
         run: npm run build
 
       - name: Set AWS Credentials

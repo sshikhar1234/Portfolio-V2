@@ -26,40 +26,16 @@
     align-items: center;
   }
 
-  .logo {
-    width: 8rem;
-    height: 10rem;
-
-    &::before {
-      display: block;
-      position: absolute;
-      content: '';
-      height: 10rem;
-      width: 2rem;
-      background-color: $color-primary-main;
-      border-radius: 2px;
-      animation-name: flyInLeft;
-      animation-duration: 0.5s;
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      display: block;
-      margin-left: 1rem;
-      height: 10rem;
-      width: 8rem;
-      border-radius: 2px;
-      background-image: linear-gradient(to right, $color-primary-dark, $color-primary-main 60%);
-      animation-name: flyInRight;
-      animation-duration: 0.2s;
-      animation-timing-function: cubic-bezier(0.17, 0.67, 0.53, 1.15);
-    }
+.description{
+  animation-name: fadeAppear;
+  animation-duration: 1s;
+  animation-delay: 3.8s;
+  @include theme(dark) {
+    background-color: $color-slate-dark-5;
   }
-
+}
   .progress {
     width: 100%;
-    margin: 0 auto;
     border-radius: $radius-small;
     height: 0.5rem;
     position: relative;

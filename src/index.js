@@ -5,7 +5,6 @@ import './styles/base.scss';
 
 class Doc extends React.Component{
   componentDidMount(){
-    document.fav
     document.title = "Shikhar Shah • DevOps • Cloud • Automation"
   }
   render(){

@@ -9,7 +9,6 @@ export default function Loader({ style }) {
         <img src={logo_hello} width={100}/>
         <div className={classes.progress}></div>
       </div>
-
     </div>
   );
 }

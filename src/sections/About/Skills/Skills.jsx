@@ -10,7 +10,6 @@ import logo_azure from "../../../images/logo_azure.svg"
 import logo_groovy from "../../../images/logo_groovy.svg"
 import logo_swift from "../../../images/logo_swift.svg"
 import logo_kotlin from "../../../images/logo_kotlin.svg"
-import logo_git from "../../../images/logo_git.svg"
 import logo_java from "../../../images/logo_java.svg"
 export default function Skills() {
   

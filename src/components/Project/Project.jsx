@@ -21,13 +21,12 @@ function Features({ list }) {
 }
 
 export default function Project(props) {
-  const {  type, title, children, features, stack, link, repo } = props;
+  const {  type, title, children, features, stack, link } = props;
   /*
    * images: image -> type: object<Object<images>> dark: {small, large}, light: {small, large}
    * type -> type: string [eg. featured]
    * tech -> type: array<string>
    * link -> landing page url
-   * repo -> source code repository url
    * children : description -> type: string
    * features -> Array<string>
    * logo: logo of the project -> type: string<image>

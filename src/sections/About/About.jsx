@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 
 import { ShikharSmall, ShikharMedium, ShikharLarge } from '../../images/Shikhar';
 import Skills from './Skills';
-import SocialLinks from '../Contact/SocialLinks';
 
 export default function About() {
   return (
@@ -56,7 +55,6 @@ export default function About() {
         </Fade>
         <Fade bottom>
           <div className={classes.socialLinks}>
-            <SocialLinks />
           </div>
         </Fade>
       </div>

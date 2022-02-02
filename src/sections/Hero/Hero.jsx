@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './hero.module.scss';
 import { Link } from './../../components';
+import SocialLinks from '../Contact/SocialLinks';
+
 
 export default function Hero() {
   return (
@@ -27,12 +29,7 @@ export default function Hero() {
       </div>
 
       <div className={classes.quickContact}>
-        <Link to='mailto: sshikharshah@protonmail.com' lone>
-          sshikharshah@protonmail.com
-        </Link>
-        <Link to='https://www.linkedin.com/in/shikharshah97/' lone>
-          linkedIn/@shikharshah97
-        </Link>
+      <SocialLinks />
       </div>
     </section>
   );

@@ -10,9 +10,6 @@ export default function SocialLinks() {
       <a href='https://github.com/sshikhar1234' className='icon'>
         &#xe908;
       </a>
-      <a href='https://shikhar1234.medium.com/' className='icon'>
-        &#xe912;
-      </a>
       <a href='https://www.linkedin.com/in/shikharshah97/' className='icon'>
         &#xe90a;
       </a>

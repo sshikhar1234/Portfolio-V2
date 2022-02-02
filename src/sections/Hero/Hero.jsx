@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './hero.module.scss';
-import { Link } from './../../components';
 import SocialLinks from '../Contact/SocialLinks';
 
 

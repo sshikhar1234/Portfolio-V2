@@ -10,6 +10,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-reveal": "^1.2.2",
+    "plausible-tracker": "^0.3.5",
     "react-scripts": "^4.0.3",
     "workbox-core": "^5.1.4",
     "workbox-expiration": "^5.1.4",
